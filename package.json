@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon --exec \"npm run start:babel\"",
     "start:babel": "babel-node app.js --extensions .ts,.js,.tsx,.jsx",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist --source-maps --extensions .ts,.js,.tsx,.jsx"
   },
   "keywords": [],
   "author": "",

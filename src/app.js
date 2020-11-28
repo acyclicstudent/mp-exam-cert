@@ -3,14 +3,14 @@ if (process.env.NODE_ENV != 'production')
 import React from 'react';
 import express from 'express';
 import { renderToString } from 'react-dom/server';
-import Layout from './src/Layout';
-import Detail from './src/Detail';
-import Home from './src/Home';
+import Layout from './Layout';
+import Detail from './Detail';
+import Home from './Home';
 import bodyParser from 'body-parser';
 import mercadopago from 'mercadopago';
-import Failure from './src/Failure';
-import Success from './src/Success';
-import Pending from './src/Pending';
+import Failure from './Failure';
+import Success from './Success';
+import Pending from './Pending';
 
 mercadopago.configure({
     access_token: process.env.ACCESS_TOKEN,

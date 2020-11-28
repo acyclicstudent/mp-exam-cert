@@ -1,0 +1,7 @@
+{
+    "ext": "js,json,mjs,graphql,gql,jsx,ts,css",
+    "ignore": [
+        "node_modules/*", 
+        "dist/*"
+    ]
+}

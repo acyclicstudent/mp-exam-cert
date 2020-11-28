@@ -1,0 +1,133 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    max-width: 700px;
+}
+
+.modal .title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5em;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.modal .label {
+    font-size: 1em;
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.modal input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.7em;
+    border: 1px solid #d2d2d2;
+}
+
+.modal .phone-number {
+    display: flex;
+}
+
+.modal .phone-number p {
+    margin: 5px;
+    font-size: 0.8em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.modal .btn-continue {
+    display: block;
+    margin: 5px auto;
+    background: #0071b3;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.7em;
+    border: 0px;
+    border-radius: 5px;
+    width: 50%;
+    padding: 5px;
+    transition: opacity .3s ease;
+    text-transform: uppercase;
+}
+
+.modal .btn-cancel {
+    display: block;
+    margin: auto;
+    background: transparent;
+    border: 0px;
+    width: 50%;
+    padding: 5px;
+    font-size: 0.7em;
+    transition: opacity .3s ease;
+    text-transform: uppercase;
+}
+
+.modal button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+/* Status */
+.state {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 900px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.state .title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+.state .message {
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.state a {
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    padding: 10px;
+    width: 50%;
+    background: #0071b3;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.state .payment-info {
+    background: #d2d2d2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.state .payment-info .title-info {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4em;
+    margin: 10px;
+}
+
+.state a:hover {
+    opacity: 0.8;
+}
